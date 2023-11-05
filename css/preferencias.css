@@ -5,6 +5,11 @@ body {
     margin: 0;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+}
+
 header {
     text-align: center;
 }
@@ -34,7 +39,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: #92a4ff;
 }
 
 h1 {
@@ -44,31 +49,25 @@ h1 {
     color: #92a4ff;
 }
 
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 33vw;
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    background-color: #FFF;
 }
 
-div.gallery:hover {
-    border: 1px solid #777;
+td {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
 }
 
-div.gallery img {
-    width: 100%;
-    height: auto;
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+    background-color: rgb(162, 162, 162);
 }
 
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-.centrado {
-    display: flex;
-    justify-content: center;
-}
 .footer {
     background-color: #333;
     color: #FFF;
